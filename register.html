@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="./css/all.css"/>
+    <!-- style -->
+    <link rel="stylesheet" href="./css/form.css"/>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- sweet alert -->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>
+</head>
+<body>
+    <section class="form">
+        <div class="container p-0">
+            <div class="row p-0">
+                <div class="col-6 p-0">
+                    <img src="./images/55.png" class="d-lg-block d-md-none d-none"/>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center align-items-center data">
+                    <h3>SIGN UP</h3>
+                    <form method="post" autocomplete="off">
+                        <div class="input-group flex-nowrap position-relative">
+                            <span class="input-group-text" id="addon-wrapping">
+                                <i class="fas fa-user"></i>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Username" name="userName" id="username">
+                            <i class="fas fa-check-circle position-absolute icon" id="succIcon"></i>
+                            <i class="fas fa-exclamation-circle position-absolute icon" id="errIcon"></i>
+                            <small class="position-absolute errMsg" id="errMsg">Error Message</small>
+                        </div>
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="addon-wrapping">
+                                <i class="fas fa-at"></i>
+                            </span>
+                            <input type="email" class="form-control" placeholder="Email" name="email" id="email">
+                            <i class="fas fa-check-circle position-absolute icon" id="succIcon"></i>
+                            <i class="fas fa-exclamation-circle position-absolute icon" id="errIcon"></i>
+                            <small class="position-absolute errMsg" id="errMsg">Error Message</small>
+                        </div>
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="addon-wrapping">
+                                <i class="fas fa-unlock-alt"></i>
+                            </span>
+                            <input type="password" class="form-control" placeholder="Password" name="password" id="password">
+                            <i class="fas fa-check-circle position-absolute icon" id="succIcon"></i>
+                            <i class="fas fa-exclamation-circle position-absolute icon" id="errIcon"></i>
+                            <small class="position-absolute errMsg" id="errMsg">Error Message</small>
+                        </div>
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="addon-wrapping">
+                                <i class="fas fa-unlock-alt"></i>
+                            </span>
+                            <input type="password" class="form-control" placeholder="Confirm Password" name="cpassword" id="cpassword">
+                            <i class="fas fa-check-circle position-absolute icon" id="succIcon"></i>
+                            <i class="fas fa-exclamation-circle position-absolute icon" id="errIcon"></i>
+                            <small class="position-absolute errMsg" id="errMsg">Error Message</small>
+                        </div>
+                        <div class="sign-up">
+                            <input type="submit" class="btn text-white" value="Sign up" id="registerBtn"/>
+                        </div>
+                    </form>
+                    <div class="login">
+                        <p>have an account?<strong><a href="login.html">Login</a></strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- sweet alert js -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- script -->
+    <script src="./js/register.js"></script>
+</body>
+</html>

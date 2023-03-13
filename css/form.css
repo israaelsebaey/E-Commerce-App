@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7d7ff !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{text-decoration: none !important;}
+.form{
+    height: 520px;
+    margin-top: 90px;
+}
+.form .container{
+    width: 60% !important;
+}
+.form .data{
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 0 20px #ccc;
+    padding: 20px;
+    background-image: url('../images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0 0 20px #ccc;
+}
+.form h3{
+    font-weight: bold;
+    font-size: 40px;
+    color: #aa5e92;
+    margin-bottom: -10px;
+}
+.form form{width: 80%;}
+.form .input-group{
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 5px;  
+}
+.form .input-group input{
+    height: 40px !important;
+    border-radius: 0 5px 5px 0 !important;
+}
+.form input[type='submit']{
+    margin-top: 40px;
+    background-color:#aa5e92;
+    width: 100%;
+    transition: 0.5s; 
+    font-weight: bold; 
+}
+.form input[type='submit']:hover{
+    background-color: transparent;
+    border: 1px solid #aa5e92;
+    color: #aa5e92 !important;
+}
+.form .input-group i{color: #3e3e3e;}
+.form .login{
+    margin-top: 20px;
+    color: #3e3e3e;
+}
+.form .login a{
+    color: #aa5e92;
+    margin-left: 3px;
+}
+.form .errMsg{
+    top:45px;
+    left:5px;
+    color: #c9184a;
+    visibility: hidden;
+}
+.form .icon{
+    top: 13px;
+    right: 10px;
+    visibility: hidden;
+}
+.input-group.err{border: 1px solid #c9184a;}
+.input-group.err .fa-exclamation-circle{
+    color: #c9184a !important;
+    visibility: visible;
+}
+.input-group.err small{
+    visibility: visible;
+    line-height: 1;
+}
+.input-group.success{border: 1px solid #52b788;}
+.input-group.success .fa-check-circle{
+    color: #52b788 !important;
+    visibility: visible;
+}
+.colored-toast.swal2-icon-success {background-color: #52b788 !important;}
+.colored-toast .swal2-title {color:#fff !important;} 
+.colored-toast .swal2-close {color:#fff !important;}  
+.colored-toast .swal2-html-container {color:#fff !important;}
+
+@media (max-width:1060px) {
+    .form form{width: 100%;}
+    .form .data{padding: 30px;}
+}
+@media (max-width:992px) {
+    .form .data{border-radius:20px;}
+    .form form{width: 80%;}   
+}
+@media (max-width:576px) {
+    .form form{width: 100%;}
+    .form .data{padding: 30px;}
+    .form h3{font-size: 30px;}
+}
+@media (max-width:280px) {
+    .form .data{padding: 20px 10px;}
+    .form h3{font-size: 25px;}
+}

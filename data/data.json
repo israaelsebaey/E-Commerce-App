@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name":"nike shoes",
+        "price":79,
+        "image":"images/56.webp"
+    },
+    {
+        "id":2,
+        "name":"backpack",
+        "price":60,
+        "image":"images/60.jpeg"
+    },
+    {
+        "id":3,
+        "name":"metal bottle",
+        "price":40,
+        "image":"images/64.webp"
+    },
+    {
+        "id":4,
+        "name":"sunglasses",
+        "price":80,
+        "image":"images/68.jpg"
+    },
+    {
+        "id":5,
+        "name":"headphones",
+        "price":65,
+        "image":"images/91.jpg"
+    },
+    {
+        "id":6,
+        "name":"iphone 14 pro max",
+        "price":1500,
+        "image":"images/37.jpg"
+    },
+    {
+        "id":7,
+        "name":"nikon camera",
+        "price":1700,
+        "image":"images/84.jpeg"
+    },
+    {
+        "id":8,
+        "name":"apple watch",
+        "price":110,
+        "image":"images/83.gif"
+    }
+]
